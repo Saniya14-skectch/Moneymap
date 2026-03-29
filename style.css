@@ -20,7 +20,20 @@ input, select,button {
 
  button {
     background-color: beige;
-    color:antiquewhite;
+    color:rgb(54, 52, 50);
     cursor: pointer;
 
  }
+ ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: beige;
+    color: black;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}

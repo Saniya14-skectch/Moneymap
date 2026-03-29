@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MONEYMAP</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>MONEYMAP</h1>
-        <p>Track your expenses, income and savings</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONEYMAP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <script src="script.js"></script>        
-    </body>
+<body>
+
+    <h1>MONEYMAP</h1>
+    <p>Track your expenses, income and savings</p>
+
+    <div class="container">
+        <h2>Add Expense</h2>
+
+        <input type="text" id="desc" placeholder="Description">
+        <input type="number" id="amount" placeholder="Amount">
+
+        <select id="category">
+            <option>Groceries</option>
+            <option>Entertainment</option>
+            <option>Rent</option>
+            <option>Shopping</option>
+            <option>Personal Care</option>
+            <option>Transportation</option>
+            <option>Others</option>
+        </select>
+
+        <button onclick="addExpense()">Add Expense</button>
+
+        <h2>Expenses</h2>
+        <ul id="expenseList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
 </html>
- <div class="container">
-    <h2> Add expense</h2>
-    <input type="text" id="desc" placeholder="Description">
-    <input type="number" id="amount" plcaeholder="Amount">
-
-    <select id="category">
-        <option>Groceries</option>
-        <option>Entertainment</option>
-        <option>Rent</option>
-        <option>Shopping</option>
-        <option>Personal Care</option>
-        <option>Transportation</option>
-        <option>Others</option>
-
-        <button>Add expense</button>
- </div>
