@@ -5,5 +5,22 @@ body {
 }
 
 h1 { 
-    color:beige
+    color:beige;
 }
+.container {
+    margin-top: 40px;
+}
+
+input, select,button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+ button {
+    background-color: beige;
+    color:antiquewhite;
+    cursor: pointer;
+
+ }
